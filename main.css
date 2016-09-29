@@ -1,20 +1,18 @@
 body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	height: 100%;
+	font-size: 18px;
 	margin: 0;
 	text-align: left;
 	width: 100%;
 	background-image: url("Light Parchment.jpg");
-	width: 30%;
-	margin: 1% auto 1% auto;
+	width: 60%;
+	margin: 1% auto;
 	
 }
 
 #Tony {
-	margin: 10% auto 10% auto;
-    margin-left: 125px;
-    top: 0px;
-    z-index: -1;
+	
+	float: left;
 }
 	
 
@@ -38,6 +36,10 @@ h2 {
 	text-align: center;
 }
 
+p {
+	padding: 0px;
+    margin: 0px;
+}
 
 ul#menu {
 	padding:0;
@@ -45,8 +47,8 @@ ul#menu {
 }
 ul#menu li {
 	display:inline;
-	top: 0;
-	left: 0;
+	!top: 0;
+	!left: 0;
 }
 ul#menu li a {
 		background-color:grey;
@@ -57,4 +59,21 @@ ul#menu li a {
 }
 ul#menu li a:hover {
 	background-color:black;
+}
+
+.intro {
+	margin-top: 10px;
+
+}
+
+.contact {
+	margin: 10%;
+}
+
+h3, p{
+margin:0;
+}
+
+#stpaul, #metro {
+	margin-top: 5%;
 }
