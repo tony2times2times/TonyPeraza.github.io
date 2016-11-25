@@ -3,14 +3,16 @@
 <head>
   <title>Tony Peraza's resume</title>
   <meta charset="utf-8"/>
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
-<ul id="menu">
-<li><a href="index.html"> Introduction </a></li>
-<li><a href="experience.html">Experience</a></li>
-<li><a href="education.html">Education</a></li>
+
+<button class="showIntro">Introduction</button>
+<button class="showExp">Experience</button>
+<button class="showEdu">Education</button>
 </ul>
 
 <figure>
@@ -29,10 +31,89 @@
 	</h2>
 </address>
 <main>
-	<p>
+	<p class="info" id="intro">
 	I have always loved solving puzzles and understanding how things work.
 	Programing started off as a challenging puzzle but has turned into a hobby that I would like to pursue full time.
 	</p>
+
+<div class="info" id="exp">
+  <h3>
+  	The City of Minneapolis - Deskside Technician<br/>
+  	 August 2015 – Present
+  	</h3>
+
+    <ul class="experiance">
+      <li>Provided onsite assistance and support for incoming issues related to software, and hardware</li>
+      <li>Used Bomgar to provide remote assistance</li>
+      <li>Installed, configured and supported mobile devices using AirWatch</li>
+      <li>Proved Tier II support for helpdesk calls to improve first call resolution</li>
+  	<li>Managed service requests and incidents using ServiceNow to ensure service level agreements were met</li>
+
+    </ul>
+
+    	<h3>
+  	Geek Squad - Advanced Repair Agent<br/>
+  	 January 2005 – November 2012
+  	</h3>
+
+    <ul class="experiance">
+      <li>Provided Technical Training and Support for both customers and employees of Best Buy</li>
+      <li>Set up, Diagnosed, Repaired, and Restored Units checked in for maintenance and upgrades</li>
+      <li>Managed all client communications threw out repair </li>
+      <li>Maximized employee productivity by providing second level technical support</li>
+
+
+    </ul>
+
+    	<h3>
+  	U.S. Army - PATRIOT Radar Operator <br/>
+  	 January 2005 – November 2012
+  	</h3>
+
+    <ul class="exp">
+
+      <li>Provided first tier technical support</li>
+      <li>Operated and configured servers running on Solaris </li>
+      <li>Planned and executed training for 100 Soldiers</li>
+      <li>Supervised 5 Soldiers</li>
+
+    </ul>
+
+  </body>
+
+
+</div>
+
+<div class="info" id="edu">
+  <table>
+    <tr>
+      <td> <h3>St. Paul College</h3></td>
+      <td></td>
+      <td><h3>Associates in Liberal Arts</h3></td>
+    </tr>
+    <tr>
+      <td>St Paul, Minnesota</td>
+      <td></td>
+      <td>Degree Achieved June 2015</td>
+    </tr>
+
+
+    <tr>
+    </tr>
+    <tr>
+      <td> <h3>Metropolitan State University</h3></td>
+      <td></td>
+      <td><h3>Bachelors in Information Technology</h3></td>
+    </tr>
+    <tr>
+      <td>St Paul, Minnesota</td>
+      <td></td>
+      <td>Projected Graduation Fall 2017</td>
+    </tr>
+
+  </table>
+</div>
+
 
 </main>
 </body>

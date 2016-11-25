@@ -81,3 +81,7 @@ tr {
 table {
 	width: 125%;
 	}
+
+.info {
+	display:none;
+}
